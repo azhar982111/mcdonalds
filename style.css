@@ -1,0 +1,62 @@
+#order-section {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+label {
+    /* border: 1px solid salmon; */
+    padding: 10px;
+}
+
+#order-btn-section {
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+}
+
+button {
+    font-size: xx-large;
+    border-radius: 6px;
+    outline: none;
+    background-color: antiquewhite;
+    color: palevioletred;
+    /* border: 1px solid palevioletred; */
+}
+
+#main-section{
+    display: flex;
+    gap: 30px;
+}
+
+/* #itemimg{
+    height: 350px;
+} */
+
+#orderid{
+    display: flex;
+    flex-direction:row-reverse;
+    /* margin-right: 150px; */
+    /* border: 1px solid rgb(253, 7, 89);   */
+}
+
+#orderidFont{
+    margin-right: 13px;
+    font-size: 20px;
+    /* border: 1px solid rgb(253, 7, 89);   */
+    padding: 8px;
+    border-radius: 15px;
+    background-color: rgba(255, 6, 6, 0.432);
+}
+
+#orderDiv{
+    font-size: 20px;
+    /* border: 1px solid rgb(253, 7, 89);   */
+    /* padding: 8px; */
+    border-radius: 15px;
+    /* background-color: rgba(255, 6, 6, 0.432); */
+    padding-top: 22px;
+    height: 20px;
+    margin-top: 5px;
+}
